@@ -5,9 +5,9 @@ const CommunityPage = () => {
   return (
       <div>
           <Header />
-          <div className="w-full h-screen flex justify-center bg-amber-600 text-white">
+          <div className="w-full h-full flex justify-center bg-amber-600 text-white md:h-screen">
               <div className="w-[90vw] max-w-[1200px] mt-28 ">
-                  <div className="flex justify-center space-x-7 w-full max-w-[800px] mx-auto">
+                  <div className="flex justify-center space-x-7 w-full max-w-[800px] mx-auto mb-10 flex-col md:flex-row mt-7">
                       <img src="/img/community.jpg" alt="community" className="w-96 h-96" />
                       <div className="community-header-right">
                           <div className="community-content">
@@ -27,8 +27,6 @@ const CommunityPage = () => {
                           </div>
                       </div>
                   </div>
-                  
-                  
               </div>
           </div>
           <Footer />

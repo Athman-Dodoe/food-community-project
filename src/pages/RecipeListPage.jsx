@@ -8,7 +8,7 @@ const RecipeListPage = () => {
         <div>
             <Header />
             <div className="w-full h-screen flex justify-center bg-amber-600">
-                <div className="w-[90vw] max-w-[1200px] mt-28">
+                <div className="w-[90vw] max-w-[1200px] mt-35">
                     <h1 className="text-3xl font-semibold mb-5 text-white">Our Recipes</h1>
                     <div className="recipe-list">
                         {Object.keys(my_recipes).map((recipe) => {

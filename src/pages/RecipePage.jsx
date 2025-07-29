@@ -8,7 +8,7 @@ const RecipePage = () => {
       <div>
           <Header />
           <div className="w-full h-full flex bg-amber-600 pb-7 text-white items-center">
-              <div className="w-[90vw] max-w-[1200px] mt-28 mx-auto">
+              <div className="w-[90vw] max-w-[1200px] mt-35 mx-auto">
                   <div className="w-full max-w-[800px] mx-auto">
                     <h1 className="text-3xl font-semibold">{my_recipes[recipe_id].name}</h1>
                     <p className="mb-5">Preparation Time: {my_recipes[recipe_id].preparation_time}</p>

@@ -19,15 +19,15 @@ const IndexPage = () => {
  
       <div className="w-full h-full flex items-center justify-center bg-amber-600 pt-7">
         <div className="w-[90vw] max-w-[1200px]">
-          <div className="flex items-center justify-center space-x-7 mb-5">
+          <div className="flex flex-col items-center justify-center space-x-7 mb-10 md:flex-row ">
             <img src="./img/icon1.jpg" className="w-80 h-64 object-cover rounded-full" alt="" />
-            <p className="text-xl w-72 text-white ">Contributed by an amazing community of foodies. With hundreds of cuisines curated and tens of recipes created each day, start cooking and experience what you can do with your kitchen!</p>
+            <p className="text-xl w-72 text-white mt-2">Contributed by an amazing community of foodies. With hundreds of cuisines curated and tens of recipes created each day, start cooking and experience what you can do with your kitchen!</p>
           </div>
-          <div className="flex items-center justify-center space-x-7 mb-5">
-            <p className="text-xl w-72 text-white">Contributed by an amazing community of foodies. With hundreds of cuisines curated and tens of recipes created each day, start cooking and experience what you can do with your kitchen!</p>
+          <div className="flex flex-col-reverse items-center justify-center space-x-7 mb-10 md:flex-row">
+            <p className="text-xl w-72 text-white ">Contributed by an amazing community of foodies. With hundreds of cuisines curated and tens of recipes created each day, start cooking and experience what you can do with your kitchen!</p>
             <img src="./img/icon-2.jpg" className="w-80 h-64 object-cover rounded-full" alt="" />
           </div>
-          <div className="flex items-center justify-center space-x-7 mb-5">
+          <div className="flex flex-col items-center justify-center space-x-7 mb-10 md:flex-row">
             <img src="./img/icon-3.jpg" className="w-80 h-64 object-cover rounded-full" alt="" />
             <p className="text-xl w-72 text-white">Contributed by an amazing community of foodies. With hundreds of cuisines curated and tens of recipes created each day, start cooking and experience what you can do with your kitchen!</p>
           </div>
